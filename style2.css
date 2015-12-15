@@ -1,0 +1,99 @@
+/*color scheme lightest to darkest #F3FBFF, #E4ECEF, #C3C9CC, #51CBFF, #386A7F, #23267F, #010026*/
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+html {
+  background: #F3FBFF;
+}
+body {
+  width: 80%;
+  max-width: 980px;
+  min-width: 750px;
+  margin: 0 auto;
+  background: #E4ECEF;
+  font-family: "Amatic SC", Arial, sans-serif;
+}
+div#mainwrapper {
+  min-width: 900px;
+}
+header#headermain {
+  position: relative;
+  background-image: url(images/homepage/scenetitlepage.png);
+  background-size: cover;
+  min-height: 375px;
+  margin-bottom: 0;
+}
+h1 {
+	margin: 0;
+}
+h1#pagetitle {
+  color: #010026;
+  font-size: 7em;
+  text-shadow: 3px 3px #e4efee;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 95%;
+}
+h2#subtitle {
+  text-align: center;
+  font-weight: 500;
+  color: #010026;
+  text-shadow: 1px 1px #e4efee;
+}
+nav {
+  height: 20px;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+li.navbar {
+  font-size: 1.3em
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  float: left;
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+nav li a {
+  text-decoration: none;
+  color: #386A7F;
+}
+nav a :visited {
+  color: #C3C9CC;
+}
+nav a:focus, nav a:hover {
+  color: #51CBFF;
+}
+nav a:active {
+  color: #F3FBFF;
+}
+main {
+	color: #010026;
+}
+article {
+  width: 70%;
+  height: 400px;
+  min-width: 600px;
+  margin: 0 1em 0 1em;
+}
+
+aside {
+  font-size: 1.5em;
+  float: right;
+  width: 200px;
+}
+time {
+	font-size: 1.5em;
+  font-weight: bolder;
+}
+footer {
+  clear: both;
+  margin-top: 1em;
+  border-top: 2px solid #C3C9CC;
+  text-align: right;
+}
+#copyright {
+	color: #000;
+}
