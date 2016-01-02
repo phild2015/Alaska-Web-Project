@@ -22,6 +22,6 @@ var regExItem = new RegExp(regExPatt);
 var imageNum = regExItem.exec (imageSrc);
 console.log(imageNum);
 var myCaption = myKids[1];
-var imageUrl = "images/watertowers-";
+var imageUrl = "images/day1-";
 $("div#image img").attr("src",imageUrl + imageNum[0] +".jpg");
 }

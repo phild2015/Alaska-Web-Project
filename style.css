@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 html {
   background: #F3FBFF;
+  max-width: 980px;
 }
 body {
   width: 80%;
@@ -13,7 +14,7 @@ body {
 }
 header#headermain {
   position: relative;
-  background-image: url(images/homepage/scenetitlepage.png);
+  background-image: url(images/homepage/sceneday1.jpg);
   background-size: cover;
   min-height: 375px;
   margin-bottom: 0;
